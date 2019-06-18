@@ -1,6 +1,6 @@
 import xgboost as xgb
 import lightgbm as lgb
-import catboost as cat
+#import catboost as cat
 
 from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor, ExtraTreesRegressor
 from sklearn.linear_model import ElasticNet, Lasso, Ridge
