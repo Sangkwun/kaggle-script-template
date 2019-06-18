@@ -21,4 +21,5 @@ def run(command):
 
 
 run('python setup.py develop --install-dir /kaggle/working')
-run('python easy_gold/main.py')
+run('python -m molecule.main split_fold test')
+run('python -m molecule.main train test')
