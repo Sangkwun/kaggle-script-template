@@ -11,4 +11,5 @@ csv_path = {
     'mulliken_charges': os.path.join(data_path, 'mulliken_charges.csv'), # molecule_name  atom_index  mulliken_charge
     'magnetic_shielding': os.path.join(data_path, 'magnetic_shielding_tensors.csv'), # molecule_name  atom_index        XX      YX      ZX      XY        YY      ZY      XZ      YZ        ZZ
     'dipole_moments': os.path.join(data_path, 'dipole_moments.csv'), # molecule_name       X    Y       Z
+    'submission': os.path.join(data_path, 'sample_submission.csv')
 }

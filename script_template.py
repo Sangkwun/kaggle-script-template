@@ -21,5 +21,5 @@ def run(command):
 
 
 run('python setup.py develop --install-dir /kaggle/working')
-run('python -m molecule.main split_fold test')
-run('python -m molecule.main train test')
+run('python -m molecule.main split_fold --n_fold 5')
+run('python -m molecule.main train --model_configs lgb_base.json')
