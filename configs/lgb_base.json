@@ -1,0 +1,23 @@
+{
+    "name": "lgb_base",
+    "type": "lgb",
+    "metric": "mae",
+    "verbose": 1000,
+    "early_stopping_rounds": 200,
+    "params": {
+        "num_leaves": 128,
+        "min_child_samples": 79,
+        "objective": "regression",
+        "max_depth": 11,
+        "learning_rate": 0.2,
+        "boosting_type": "gbdt",
+        "subsample_freq": 1,
+        "subsample": 0.9,
+        "bagging_seed": 11,
+        "metric": "mae",
+        "verbosity": -1,
+        "reg_alpha": 0.1,
+        "reg_lambda": 0.3,
+        "colsample_bytree": 1.0
+    }
+}
