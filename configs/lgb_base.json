@@ -1,5 +1,4 @@
 {
-    "name": "lgb_base",
     "type": "lgb",
     "metric": "mae",
     "verbose": 1000,
